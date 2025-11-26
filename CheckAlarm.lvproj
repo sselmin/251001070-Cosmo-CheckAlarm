@@ -16,8 +16,11 @@
 		<Item Name="ControlConfigDI.ctl" Type="VI" URL="../ControlConfigDI.ctl"/>
 		<Item Name="ControlConfigMisura.ctl" Type="VI" URL="../ControlConfigMisura.ctl"/>
 		<Item Name="DrawTable.vi" Type="VI" URL="../DrawTable.vi"/>
+		<Item Name="LeggiDB.vi" Type="VI" URL="../LeggiDB.vi"/>
+		<Item Name="LeggiDBMeta.vi" Type="VI" URL="../LeggiDBMeta.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="ReadCfg.vi" Type="VI" URL="../ReadCfg.vi"/>
+		<Item Name="SalvaInDB.vi" Type="VI" URL="../SalvaInDB.vi"/>
 		<Item Name="SogliaLogic.vi" Type="VI" URL="../SogliaLogic.vi"/>
 		<Item Name="Untitled 6.vi" Type="VI" URL="/D/LIBRERIE_LV/Icone/Untitled 6.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -86,13 +89,16 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="sqlite3.lvlib" Type="Library" URL="/D/LIBRERIE_LV/SQLite/sqlite3.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="CheckAlarm" Type="EXE">
@@ -112,7 +118,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{97B0A138-AFAF-4DBE-8DF3-1BA0B211B51B}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CheckAlarm.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
